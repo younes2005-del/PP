@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: "faith";
+    src: url("../pettingill-cf/PettingillCF-Bold.otf") format("truetype");
+  }
+
+  section{
+
+    position: relative;
+    height: 100vh;
+    scroll-snap-align: start;
+    width: 100%;
+
+
+}
+
+    
+.home__headerdiv{
+        width: 100%;
+        padding: 20%;
+        background: url('../img/butterfly.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-snap-align: start;
+        background-repeat: no-repeat;
+
+        }
+.un{
+          
+            background: url('../img/you.jpg');
+                
+}
+        
+
+article {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border: 2px solid black;
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    position: relative;
+    margin: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10% 5%;
+
+}
+
+.article img{
+    height: 90%;
+    max-width: 45%;
+    border: none;
+    -moz-border-radius : 100px;
+    -webkit-border-radius : 100px;
+    border-radius : 100px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 40px;
+
+
+}
+
+article h3{
+    text-decoration-line: underline;
+}
+            
+            
+           
+        
+        
+.home__headerdiv h1{
+            position: relative;
+            font-size: 10em;
+            background-image: url('../img/you.jpg');
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-attachment: fixed;
+            background-size: cover;
+            color: transparent; 
+            font-family: 'faith';
+            z-index: 10000;
+            overflow: visible;
+            
+        }
+.un h1{
+            background-image: url('../img/butterfly.jpg');
+
+        }
+
+@media (max-width:900px){
+    
+
+    .article{
+        display: flex;
+        flex-direction: column;  
+        border: 1px solid lightgrey; 
+        height: auto; 
+
+
+    }
+    article{
+        width: 90%;
+        margin: 5% 20px;  
+
+    }
+    .article img{
+    height: 90%;
+    max-width: 90%;
+    border: none;
+    -moz-border-radius : 100px;
+    -webkit-border-radius : 100px;
+    border-radius : 100px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 40px;
+    
+    
+    }
+    .profile img{
+        height: auto;
+        max-width: 50%;
+        margin: 0 25%;
+    }
+    .brush{
+        word-break: break-all;
+    }
+
+}

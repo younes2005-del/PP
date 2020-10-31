@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.About{
+    height: 100%;
+    position: relative;
+}
+
+.ana{
+    margin: 20%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+
+}

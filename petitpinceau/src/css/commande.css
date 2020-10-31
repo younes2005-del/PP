@@ -1,0 +1,11 @@
+.cmd{
+    
+    padding: 10px;
+    background-color: white;
+    margin: 20%;
+}
+
+.cmd img{
+    max-width: 500px ;
+    height: auto;
+}

@@ -1,0 +1,35 @@
+*{
+    transition: 0.6s;
+}
+
+.Item{
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    max-width: 25%;
+    min-width: 20%;
+    width: auto;
+    height: 210px;
+    overflow: hidden;
+
+}
+.Item:hover{
+    height: auto;
+}
+
+.Item img{
+    height: 200px;
+    width: 100%;
+    margin: 2px;
+}
+
+
+@media (max-width:1000px){
+    .Item{
+        max-width: 90%;
+        margin: 5% 30px;
+        height: auto;
+
+    }
+}
